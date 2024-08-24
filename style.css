@@ -1,0 +1,59 @@
+
+
+.container {
+    min-width: 1000px;
+}
+
+.icon {
+    width: 480px;
+    height: 270px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: all .5s ease;
+    box-shadow: 15px 10px 10px gray;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: gray;
+    cursor: pointer;
+    filter: saturate(65%);
+}
+
+.label {
+
+    font-size: larger; 
+    font-weight: bold;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    filter:saturate(100%);
+}
+
+.mygrid {
+    display: inline-grid; 
+    grid-auto-flow:dense; 
+    justify-content: center;
+    grid-template-columns: auto auto ;
+}
+
+.myimagescroller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.displayimage {
+    height: 450px;
+    border-radius: 5%;
+    margin: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    box-shadow: 15px 10px 10px gray;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3/dist/united/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="text-center" style="background-image: url(images/triangle-mosaic.webp);">
+        <div class="page-header bg-primary" style="background-image: url(images/dark-triangles.png);">
+            <br><br>
+            <div class="badge rounded-pill bg-primary" style="width: 400px;">
+                <h1 style="font-size: 50px; font-weight:900;">Projects</h1>
+                <p>The personal projects of Owen Crema.</p>
+            </div>
+            <br><br>
+        </div>
+        <div id="subpage" style="display: none;">
+            <br>
+            <div>
+                <button type="button" class="btn btn-secondary" style="margin-left: 55%; user-select: none;"
+                    id="closebutton">X</button>
+            </div>
+            <img class="displayimage" id="subpageimage">
+            <br>
+            <ul class="pagination pagination-lg myimagescroller">
+                <li class="page-item">
+                    <p class="page-link" style="cursor: pointer; user-select: none;" id="scrollerleftarrow">&laquo;</p>
+                </li>
+                <li class="page-item scrollernum active">
+                    <p class="page-link" style="cursor: pointer; user-select: none;" id="scrollernum1">1</p>
+                </li>
+                <li class="page-item scrollernum">
+                    <p class="page-link" style="cursor: pointer; user-select: none;" id="scrollernum2">2</p>
+                </li>
+                <li class="page-item scrollernum">
+                    <p class="page-link" style="cursor: pointer; user-select: none;" id="scrollernum3">3</p>
+                </li>
+                <li class="page-item scrollernum">
+                    <p class="page-link" style="cursor: pointer; user-select: none;" id="scrollernum4">4</p>
+                </li>
+                <li class="page-item scrollernum">
+                    <p class="page-link" style="cursor: pointer; user-select: none;" id="scrollernum5">5</p>
+                </li>
+                <li class="page-item scrollernum">
+                    <p class="page-link" style="cursor: pointer; user-select: none;" id="scrollernum6">6</p>
+                </li>
+                <li class="page-item">
+                    <p class="page-link" style="cursor: pointer; user-select: none;" id="scrollerrightarrow">&raquo;</p>
+                </li>
+            </ul>
+            <div class="card" style="width: 900px; margin: auto; box-shadow: 15px 10px 10px gray;">
+                <br>
+                <div class="card-body" id="subpagedesc">
+                    <div id="understonedesc">
+                        <h1>Understone</h1>
+                        <p>
+                            Understone is a 2d game based on the video game Deep Rock Galactic.
+                            Fight through hordes of bug to get to the alien egg. 
+                            It features real time combat, many different weapons, and multiple enemy types.
+                            Developed by a small team in Java.
+                        </p>
+                        <a class="btn btn-primary"
+                            href="https://drive.google.com/uc?export=download&id=1kg9IylUR8afPuxfFZJf4WyB9vvMooUGE">Download
+                            Jar File</a>
+                        <a class="btn btn-primary" href="https://github.com/zabauka/Understone" target="_blank">GitHub
+                            Repository</a>
+                    </div>
+                    <div id="minesweeperdesc">
+                        <h1>Mine Sweeper</h1>
+                        <p>
+                            Browser based game of mine sweeper. Includes animations for winning and losing.
+                            Uses bootstrap themes and JavaScript scripting with Jquery. Hosted on GitHub Pages.
+                        </p>
+                        <a class="btn btn-primary" href="https://ocrema.github.io/minesweeper/" target="_blank">Website
+                            Link</a>
+                        <a class="btn btn-primary" href="https://github.com/ocrema/minesweeper" target="_blank">GitHub
+                            Repository</a>
+                    </div>
+                    <div id="encempdesc">
+                        <h1>Enchanted Emporium</h1>
+                        <p>
+                            Browser based online storefront for wizards.
+                            Stores many products with images, descriptions, tags, and reviews. Search page provides many
+                            different searching and ordering options.
+                            Uses an Html and Jquery frontend connecting to a Node.js backend using MySQL database.
+                        </p>
+                        <a class="btn btn-primary" href="https://github.com/ocrema/Enchanted-Emporium"
+                            target="_blank">GitHub Repository</a>
+                    </div>
+                    <div id="gloopdesc">
+                        <h1>Gloop Game</h1>
+                        <p>
+                            2d game developed in Java using Java Swing. Includes item crafting, inventory management, item progression, and buildable structures.
+                        </p>
+                        <a class="btn btn-primary"
+                            href="https://drive.google.com/uc?export=download&id=1uPkTP5jLTHecUAN5_iDQEA-qQvSToJHP">Download
+                            Jar File</a>
+                        <a class="btn btn-primary" href="https://github.com/ocrema/Gloop-Game" target="_blank">GitHub
+                            Repository</a>
+                    </div>
+                    <div id="chessdesc">
+                        <h1>Chess Simulator</h1>
+                        <p>
+                            Chess simulator developed in Java using Java Swing. Allows two players to play against each other. 
+                            Includes real time chess rules, piece movement, and checkmate and stalemate detection.
+                        </p>
+                        <a class="btn btn-primary"
+                            href="https://drive.google.com/uc?export=download&id=1iBRmLRKX0nW6sk8ICNkJ0m1pKu4mm3hR">Download
+                            Jar File</a>
+                        <a class="btn btn-primary" href="https://github.com/ocrema/Chess-Simulator" target="_blank">GitHub
+                            Repository</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <br><br><br><br><br>
+        </div>
+
+        <div class="mygrid">
+            <div class="icon" style="background-image: url(images/understone2.png);" value="understone" numimages="3">
+                <h2 class="badge rounded-pill bg-primary label">Understone</h2>
+            </div>
+            <div class="icon" style="background-image: url(images/minesweeper1.png);" value="minesweeper" numimages="3">
+                <h2 class="badge rounded-pill bg-primary label">Mine Sweeper</h2>
+            </div>
+            <div class="icon" style="background-image: url(images/encemp2.png);" value="encemp" numimages="4">
+                <h2 class="badge rounded-pill bg-primary label">Enchanted Emporium</h2>
+            </div>
+            <div class="icon" style="background-image: url(images/gloop1.png);" value="gloop" numimages="5">
+                <h2 class="badge rounded-pill bg-primary label">Gloop Game</h2>
+            </div>
+            <div class="icon" style="background-image: url(images/chess2.png);" value="chess" numimages="3">
+                <h2 class="badge rounded-pill bg-primary label">Chess Simulator</h2>
+            </div>
+            <div class="icon" id="comingsoon">
+                <h2 class="badge rounded-pill bg-primary label">More Coming Soon</h2>
+            </div>
+        </div>
+        <p>Site made by Owen Crema 2024.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="code.js"></script>
+</body>
+
+</html>
