@@ -24,7 +24,7 @@ $(document).ready(function () {
     $('.icon').click(function () {
         
         let icon = $(this);
-        $('body').get(0).scrollIntoView({behavior: 'smooth'});
+        $('#subpage').get(0).scrollIntoView({behavior: 'smooth'});
         if (page === "") {
             fillsubpage(icon); 
             $('#subpage').slideDown("slow");
@@ -68,4 +68,9 @@ $(document).ready(function () {
     });
 
     $('#comingsoon').off('click');
+    
+    $('.icon').filter(function() {
+        return $(this).attr('value') === window.location.search.substring(1).split('&').filter(x => x.toLocaleLowerCase().startsWith('project='))[0].substring(8)
+    }).click();
+
 });
