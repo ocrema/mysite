@@ -22,16 +22,25 @@
     filter: saturate(65%);
 }
 
-.label {
-
-    font-size: larger; 
-    font-weight: bold;
-}
-
 .icon:hover {
     transform: scale(1.2);
     filter:saturate(100%);
 }
+
+.label {
+    filter:saturate(153.8%);
+    font-size: larger; 
+    font-weight: bold;
+    transition: all .5s ease;
+    padding: 10px;
+}
+
+.icon:hover .label {
+    transform: scale(1.15);
+    filter:saturate(100%);
+}
+
+
 
 .mygrid {
     display: inline-grid; 
